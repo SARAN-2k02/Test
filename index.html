@@ -8,12 +8,48 @@
   </head>
 
   <body>
+    <div class="main-container">
+      <h1>Note Taking App</h1>
+      <div class="input-container">
+        <!-- <div class="input-title">
+          <label for="name" id="title">TITLE : </label>
+          <input id="title-value" type="text" placeholder="enter a title" />
+        </div>
+        <div class="input-text">
+          <label
+            for="name"
+            id="input"
+            placeholder="Enter your Notes here"
+          ></label>
+          <input
+            id="input-value"
+            type="text"
+            placeholder="Enter your Notes here"
+          />
+          <button type="button" id="add-note-btn">Sumbit</button>
+        </div> -->
 
+        <form id="TaskForm">
+          <label >Title</label>
+          <input type="text" id="title" placeholder="Enter task title" />
+          <br />
+          <label>Notes</label>
+          <textarea
+            type="text"
+            id="notes-content"
+            placeholder="Enter yournotes"
+          ></textarea>
+          <!-- <button type="submit" id="add-note-btn">Submit notes</button> -->
+        </form>
+        <button type="submit" id="add-note-btn">Submit notes</button>
+      </div>
 
+      <div class="taskList"></div>
 
+      <div id="null-div"></div>
+    </div>
+    <!-- <div id="nodeList"></div> -->
 
-
-    
     <script src="app.js"></script>
   </body>
 </html>

@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  padding: 40px;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+.input-container {
+  text-align: center;
+  padding: 40px;
+}
+
+#TaskForm {
+  border: 2px solid rgb(9, 79, 232);
+}
+#notes-content {
+  border: 2px solid red;
+  height: 40px;
+}
+#title {
+  border: 2px solid rgb(34, 31, 31);
+}
+textarea {
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+label {
+  font-size: 20px;
+  color: blue;
+}
+h1 {
+  text-align: center;
+}
+#input-value {
+  margin-top: 20px;
+  margin-left: 130px;
+
+  border: 2px solid rgb(65, 55, 55);
+  height: 40px;
+}
+
+#add-note-btn {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: rgb(8, 89, 175);
+}
